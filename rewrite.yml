@@ -1,0 +1,12 @@
+
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.domain.recipe.4
+displayName: Spring Boot Upgrade
+description: Fix all the things.
+tags:
+  - java
+  - gradle
+  - maven
+recipeList:
+  - org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
