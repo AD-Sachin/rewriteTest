@@ -1,0 +1,16 @@
+
+---
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.ibm.springboot.recipe.SpringBoot2ToSpringBoot3_2
+displayName: Migrate from Spring Boot 2 to Spring Boot 3.2
+description: Migration from the Spring Boot 2 framework to its successor Spring Boot 3
+recipeArtifactCoordinates:
+  - org.openrewrite.recipe:rewrite-spring:5.5.0  
+tags:
+  - spring-boot 2
+  - spring-boot 3
+  - spring-boot
+recipeList:
+  - org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_2
+
